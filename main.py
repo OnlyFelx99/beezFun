@@ -18,7 +18,7 @@ def exemplo():
 
 
 
-Hug = [  "https://i.postimg.cc/NG8jfNpr/aharen-san-anime-hug.gif",   "https://i.postimg.cc/7YxYCgWt/engage-kiss-anime-hug.gif", "https://i.postimg.cc/MHY6PTvY/excited-hug.gif",   "https://i.postimg.cc/BQMZ2jWS/max-and-kaylee-profile-picture.gif",   "https://i.postimg.cc/1zgzmsj9/oshi-no-ko-aqua.gif",   "https://i.postimg.cc/hjTPmMn6/syno-i-love-you-syno.gif"
+Hug = [  "https://i.postimg.cc/NG8jfNpr/aharen-san-anime-hug.gif",   "https://i.postimg.cc/7YxYCgWt/engage-kiss-anime-hug.gif", "https://i.postimg.cc/MHY6PTvY/excited-hug.gif",   "https://i.postimg.cc/BQMZ2jWS/max-and-kaylee-profile-picture.gif",   "https://i.postimg.cc/1zgzmsj9/oshi-no-ko-aqua.gif",   "https://i.postimg.cc/hjTPmMn6/syno-i-love-you-syno.gif", "https://i.postimg.cc/0yLDpWm0/027e0ab608f8b84a25b2d2b1d223edec.gif", "https://i.postimg.cc/KYBLQPDS/bfb5bed89f8c09bf53eab687eb3f9404.gif", "https://i.postimg.cc/TY3VGWfg/d895581d84d5c54ea9dba84afb88b678.gif"
 ]
 
 
