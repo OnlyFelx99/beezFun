@@ -4,7 +4,7 @@ import random
 app = Flask(__name__)
 
 Kiss = [
-    "https://i.postimg.cc/7PtSXZrV/anime-kiss.gif",  "https://i.postimg.cc/W1kmdLK7/anime-kiss-1.gif",  "https://i.postimg.cc/GtfYpqxN/anime-kiss-anime.gif",  "https://i.postimg.cc/rpGS9Gq0/engage-kiss-anime-kiss.gif",   "https://i.postimg.cc/3RnmsK43/hyakkano-100-girlfriends.gif", "https://i.postimg.cc/5NZLdK0Q/kiss.gif",   "https://i.postimg.cc/WzzgjQgg/kiss-kisses.gif",    "https://i.postimg.cc/HsJXN1pC/love-cheek.gif",   "https://i.postimg.cc/QMZQ5YZZ/romance.gif"
+    "https://i.postimg.cc/7PtSXZrV/anime-kiss.gif",  "https://i.postimg.cc/W1kmdLK7/anime-kiss-1.gif",  "https://i.postimg.cc/GtfYpqxN/anime-kiss-anime.gif",  "https://i.postimg.cc/rpGS9Gq0/engage-kiss-anime-kiss.gif",   "https://i.postimg.cc/3RnmsK43/hyakkano-100-girlfriends.gif", "https://i.postimg.cc/5NZLdK0Q/kiss.gif",   "https://i.postimg.cc/WzzgjQgg/kiss-kisses.gif",    "https://i.postimg.cc/HsJXN1pC/love-cheek.gif",   "https://i.postimg.cc/QMZQ5YZZ/romance.gif", "https://i.postimg.cc/YSWNZKkP/64dbd9804a16727969c009911f04f611.gif", "https://i.postimg.cc/bwd90S5p/a58515204a44d696ad8f080bce1656d9.gif", "https://i.postimg.cc/RZ8QgVrf/debe0021256cde2eaa0a252506011799.gif"
 ]
 
 @app.route('/')
