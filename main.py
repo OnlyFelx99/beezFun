@@ -9,7 +9,7 @@ Kiss = [
 
 @app.route('/')
 def index():
-    return "♦️ API funcionando, Existem 3 rotas /beez/kiss , /beez/hug, todas sendo **GET!** "
+    return "♦️ API funcionando, Existem 3 rotas /beez/kiss , /beez/hug, /team, todas sendo **GET!** "
 
 @app.route('/beez/kiss', methods=['GET'])
 def exemplo():
@@ -27,7 +27,16 @@ Hug = [  "https://i.postimg.cc/NG8jfNpr/aharen-san-anime-hug.gif",   "https://i.
 def hug():
     dds = {"Hug": random.choice(Hug)}
     return jsonify(dds)
-    
+
+
+@app.route('/team', methods=['GET'])
+def team():
+    team = "Essa api foi desenvolvida por parguin da beeZ Team! e feita para ajudar bots de entretenimento!, se quiser entrar na beeZ team entrar em contato! @parguin."
+    return team
+
+
+
+
 if __name__ == '__main__':
     app.run(debug=True)
     
