@@ -13,8 +13,8 @@ def index():
 
 @app.route('/beez/kiss', methods=['GET'])
 def exemplo():
-    dados = {"Kiss": random.choice(Kiss)}
-    return jsonify(dados)
+    dados = random.choice(Kiss)
+    return (dados)
 
 
 
@@ -25,8 +25,8 @@ Hug = [  "https://i.postimg.cc/NG8jfNpr/aharen-san-anime-hug.gif",   "https://i.
 
 @app.route('/beez/hug', methods=['GET'])
 def hug():
-    dds = {"Hug": random.choice(Hug)}
-    return jsonify(dds)
+    dds = random.choice(Hug)
+    return (dds)
 
 
 @app.route('/team', methods=['GET'])
