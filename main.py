@@ -1,0 +1,33 @@
+from flask import Flask, jsonify
+import random 
+
+app = Flask(__name__)
+
+Kiss = [
+    "https://i.postimg.cc/7PtSXZrV/anime-kiss.gif",  "https://i.postimg.cc/W1kmdLK7/anime-kiss-1.gif",  "https://i.postimg.cc/GtfYpqxN/anime-kiss-anime.gif",  "https://i.postimg.cc/rpGS9Gq0/engage-kiss-anime-kiss.gif",   "https://i.postimg.cc/3RnmsK43/hyakkano-100-girlfriends.gif", "https://i.postimg.cc/5NZLdK0Q/kiss.gif",   "https://i.postimg.cc/WzzgjQgg/kiss-kisses.gif",    "https://i.postimg.cc/HsJXN1pC/love-cheek.gif",   "https://i.postimg.cc/QMZQ5YZZ/romance.gif"
+]
+
+@app.route('/')
+def index():
+    return "♦️ API funcionando, Existem 3 rotas /beez/kiss , /beez/hug, todas sendo **GET!** "
+
+@app.route('/beez/kiss', methods=['GET'])
+def exemplo():
+    dados = {"Kiss": random.choice(Kiss)}
+    return jsonify(dados)
+
+
+
+Hug = [  "https://i.postimg.cc/NG8jfNpr/aharen-san-anime-hug.gif",   "https://i.postimg.cc/7YxYCgWt/engage-kiss-anime-hug.gif", "https://i.postimg.cc/MHY6PTvY/excited-hug.gif",   "https://i.postimg.cc/BQMZ2jWS/max-and-kaylee-profile-picture.gif",   "https://i.postimg.cc/1zgzmsj9/oshi-no-ko-aqua.gif",   "https://i.postimg.cc/hjTPmMn6/syno-i-love-you-syno.gif"
+]
+
+
+
+@app.route('/beez/hug', methods=['GET'])
+def hug():
+    dds = {"Hug": random.choice(Hug)}
+    return jsonify(dds)
+    
+if __name__ == '__main__':
+    app.run(debug=True)
+    
